@@ -9,7 +9,4 @@ class Administration extends Controller {
 	def login(username: String, password: String) = Action {
 		Ok
 	}
-	def createEntry(entry: String) = Action {
-		Ok
-	}
 }

@@ -14,7 +14,8 @@ libraryDependencies ++= Seq(
 )
 
 libraryDependencies ++= Seq(
-  "com.typesafe.slick" %% "slick" % "3.0.0",
+  "org.postgresql" % "postgresql" % "9.4-1201-jdbc4",
+  "com.typesafe.slick" %% "slick" % "3.1.1",
   "org.slf4j" % "slf4j-nop" % "1.6.4"
 )
 
